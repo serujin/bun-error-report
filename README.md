@@ -1,4 +1,16 @@
-# repo-explosion
+# bun-error-report
+
+To reproduce the issue:
+
+```bash
+git clone https://github.com/serujin/bun-error-report.git
+
+cd bun-error-report
+
+bun install
+
+bun build --target=bun --production --outdir=dist ./index.ts
+```
 
 To install dependencies:
 
